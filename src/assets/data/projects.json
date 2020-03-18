@@ -1,0 +1,454 @@
+[
+	{
+		"name":"PASAPES",
+		"description":"Desarrollo de un sistema de gestión web para profesores de secundaria. PHP, SQL , CSS y JQuery.",
+		"image_urls":[
+			"pasapes/1.png"
+		],
+		"start_date":"2012-10-22",
+		"end_date":"2013-1-13",
+		"urls":[
+
+		],
+		"category":"WEB"
+	},
+	{
+		"name":"Hardcore Gamer",
+		"description":"Videojuego accesible desde aplicación web para mandar mensajes poco deseables en Twitter cuando se pierde. Tiene un pequeño ranking con las mejores puntuaciones, representadas en un mapa. GWT, Google Maps API, Twitter API y MySQL.",
+		"image_urls":[
+			"hardcore-gamer/hardcore-gamer-1.png",
+			"hardcore-gamer/hardcore-gamer-2.png",
+			"hardcore-gamer/hardcore-gamer-intro.png",
+			"hardcore-gamer/hardcore-gamer-twitter-login.png",
+			"hardcore-gamer/hardcore-gamer-highscores.png"
+		],
+		"start_date":"2013-03-15",
+		"end_date":"2013-05-31",
+		"urls":[
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"http://hardcore-gamer.appspot.com/"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Acme Centers",
+		"description":"Desarrollo de un sistema de información web para centros educativos con geolocalización. Spring y MySQL.",
+		"image_urls":[
+			"acme_centers/3.png"
+		],
+		"start_date":"2014-05-13",
+		"end_date":"2014-06-05",
+		"urls":[
+			{
+				"name":"download",
+				"icon":"download",
+				"link":"/archives/projects/AcmeCenters.zip"
+			}
+		],
+		"category":"WEB"
+	},
+	{
+		"name":"Asteroides",
+		"description":"Experimento de clon del clásico asteroides. Tiene almacenamiento de mejores puntuaciones en local y remoto.LibGDX, MySQL y Android.",
+		"image_urls":[
+			"asteroides/2.png"
+		],
+		"start_date":"2015-03-05",
+		"end_date":"2015-05-20",
+		"urls":[
+			{
+				"name":"download",
+				"icon":"download",
+				"link":"/archives/projects/Asteroides.jar"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Perceptio",
+		"description":"Desarrollo de una herramienta de análisis de medios sociales con feedback y gráficos visuales. Spring, MySQL, Bootstrap y Quartz.",
+		"image_urls":[
+			"perceptio/perceptio0.png",
+			"perceptio/perceptio1.png",
+			"perceptio/perceptio2.png",
+			"perceptio/perceptio-team.jpg"
+		],
+		"start_date":"2014-12-01",
+		"end_date":"2015-06-30",
+		"urls":[
+			{
+				"name": "youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/Sdo_b7qOmrY"
+			},
+			{
+				"name": "youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/UkQS0PyxrhM"
+			}
+		],
+		"category":"WEB"
+	},
+	{
+		"name":"Space Tennis 3D",
+		"description":"Desarrollo de un videojuego 3D para ordenadores, controlado  mediante sensores de movimiento por un cliente móvil conectado por Bluetooth. Trabajo de fin de grado. LibGDX, Android y SQLite.",
+		"image_urls":[
+			"SpaceTennis3D/game.png",
+			"SpaceTennis3D/mainmenu-desktop.png",
+			"SpaceTennis3D/mainmenu-android.png",
+			"SpaceTennis3D/connection.png",
+			"SpaceTennis3D/paired.png",
+			"SpaceTennis3D/table.png",
+			"SpaceTennis3D/rules.png",
+			"SpaceTennis3D/settings.png"
+		],
+		"start_date":"2015-02-23",
+		"end_date":"2015-09-14",
+		"urls":[
+			{
+				"name":"desktop",
+				"icon": "desktop",
+				"link":"/archives/projects/SpaceTennis3D/SpaceTennis3D.jar"
+			},
+			{
+				"name": "android",
+				"icon":["fab", "android"],
+				"link":"/archives/projects/SpaceTennis3D/SpaceTennisController.apk"
+			},
+			{
+				"name":"book",
+				"icon":"book",
+				"link":"/archives/projects/SpaceTennis3D/SpaceTennis3D-book.zip"
+			},
+			{
+				"name":"youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/HND5b4teJ0A"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Acme Barcode Reader",
+		"description":"Lector de códigos de barras EAN-13. Python, Matplotlib y OpenCV.",
+		"image_urls":[
+			"acme_barcode_reader/acme_barcode_reader_01.png",
+			"acme_barcode_reader/acme_barcode_reader_02.png",
+			"acme_barcode_reader/acme_barcode_reader_03.png",
+			"acme_barcode_reader/acme_barcode_reader_04.png"
+		],
+		"start_date":"2016-03-08",
+		"end_date":"2016-03-18",
+		"urls":[
+			{
+				"name": "github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/Acmezon/AcmeSupermarketBarcode"
+			}
+		],
+		"category":"IMAGE"
+	},
+	{
+		"name":"Problema del contenedor",
+		"description":"Solución al problema del contenedor con librerías externas de Python. Python, Numpy y Numberjack.",
+		"image_urls":[
+			"mc_container/mc_container_01.png",
+			"mc_container/mc_container_02.png",
+			"mc_container/mc_container_03.png"
+		],
+		"start_date":"2016-03-29",
+		"end_date":"2016-04-01",
+		"urls":[
+			{
+				"name": "github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/mc-container"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"TSPTW",
+		"description":"Solución al problema del viajante con ventanas de tiempo (TSPTW). Implementaciones de algoritmo exacto Dumas y algoritmo heurístico Local 1-Shift. Python, Numpy, Google Maps API y MongoDB.",
+		"image_urls":[
+			"as-route/as-route_01.png"
+		],
+		"start_date":"2016-04-26",
+		"end_date":"2016-05-06",
+		"urls":[
+			{
+				"name":"download",
+				"icon":"download",
+				"link":"/archives/projects/as-route/as-route-master.zip"
+			},
+			{
+				"name":"book",
+				"icon":"book",
+				"link":"/archives/projects/as-route/as-route-doc.pdf"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"Oldschool text predictor",
+		"description":"Predictor de teclado T9 con interfaz gráfica mediante unigramas y bigramas. Python y TKinter.",
+		"image_urls":[
+			"oldschool-text-prediction/text-prediction-gif.gif",
+			"oldschool-text-prediction/text-prediction_01.png",
+			"oldschool-text-prediction/text-prediction_02.png"
+		],
+		"start_date":"2016-02-15",
+		"end_date":"2016-02-21",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/Acmezon/text-prediction"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"Markov models",
+		"description":"Posicionamiento de objetos en laberinto segun las observaciones de paredes a su alrededor. Utiliza los algoritmos Forward y algoritmo de Viterbi para modelos ocultos de Markov. Python, Numpy y PIL.",
+		"image_urls":[
+			"markov-aia/map_paths.jpg",
+			"markov-aia/map_points.jpg"
+		],
+		"start_date":"2016-02-22",
+		"end_date":"2016-02-26",
+		"urls":[
+			{
+				"name":"download",
+				"icon":"download",
+				"link":"/archives/projects/markov-aia-master.zip"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"Text similarity",
+		"description":"Encuentra el texto mas parecido a una consulta, basándose en el índice TF-IDF. Python, Numpy, Scipy, Scikit, Pytables, HDF5, Matplotlib y NLTK.",
+		"image_urls":[
+			"aia-similarity/aia-similarity_01.png"
+		],
+		"start_date":"2016-04-03",
+		"end_date":"2016-04-07",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/aia-similarity"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"SEDU Car",
+		"description":"Coche de juguete controlado por una placa STM32 Nucleo, que sea capaz de seguir una línea de color marcada en el suelo.",
+		"image_urls":[
+			"sedu_car/sedu_car_00.jpg",
+			"sedu_car/sedu_car_01.png",
+			"sedu_car/sedu_car_02.png",
+			"sedu_car/sedu_car_03.png",
+			"sedu_car/sedu_car_04.jpg"
+		],
+		"start_date":"2016-05-21",
+		"end_date":"2016-05-28",
+		"urls":[
+			{
+				"name":"youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/ySxYp-lS85Q"
+			}
+		],
+		"category":"HARDWARE"
+	},
+	{
+		"name":"Raspberry cart",
+		"description":"Extensión de la aplicación AcmeSupermarket. Añade al carrito de la compra los productos que el usuario pase por el lector de códigos de barras o pida mediante comandos de voz. Dispone de aplicación de Android para gestión temprana. Android, RaspberryPi, Java y Python.",
+		"image_urls":[
+			"raspberry-cart/raspberry-cart_01.png",
+			"raspberry-cart/raspberry-cart_02.png",
+			"raspberry-cart/raspberry-cart_03.png",
+			"raspberry-cart/raspberry-cart_04.png",
+			"raspberry-cart/raspberry-cart_05.png",
+			"raspberry-cart/raspberry-cart_06.png",
+			"raspberry-cart/raspberry-cart_07.png",
+			"raspberry-cart/raspberry-cart_08.png"
+		],
+		"start_date":"2016-06-06",
+		"end_date":"2016-07-08",
+		"urls":[
+			{
+				"name":"youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/ixHYtu7frLU"
+			}
+		],
+		"category":"ANDROID"
+	},
+	{
+		"name":"Acme-Supermarket",
+		"description":"Marketplace de videojuegos. Ofrece funcionalidades para compradores y distribuidores. Además tiene un profundo análisis de tendencias de compras para los administradores. NodeJS, MongoDB y AngularJS, principalmente.",
+		"image_urls":[
+			"acme-supermarket/acmesupermarket_01.png",
+			"acme-supermarket/acmesupermarket_02.png",
+			"acme-supermarket/acmesupermarket_03.png",
+			"acme-supermarket/acmesupermarket_04.png",
+			"acme-supermarket/acmesupermarket_05.png",
+			"acme-supermarket/acmesupermarket_06.png"
+		],
+		"start_date":"2015-11-17",
+		"end_date":"2016-05-05",
+		"urls":[
+			{
+				"name":"youtube",
+				"icon":["fab", "youtube"],
+				"link":"https://youtu.be/GAZPS_cyDRg"
+			},
+			{
+				"name":"book",
+				"icon":"book",
+				"link":"/archives/projects/acme-supermarket/acme-supermarket-mockups.pdf"
+			},
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"https://acmesupermarket.herokuapp.com/"
+			}
+		],
+		"category":"WEB"
+	},
+	{
+		"name":"Web para boda",
+		"description":"Pequeña página web conmemorativa de una celebración. Incluye formulario de correo, subida de imágenes y login de usuario. NodeJS, AngularJS y MongoDB.",
+		"image_urls":[
+			"nuriaygrego/001.png",
+			"nuriaygrego/002.png",
+			"nuriaygrego/003.png"
+		],
+		"start_date":"2016-07-25",
+		"end_date":"2016-08-06",
+		"urls":[
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"https://nuriaygrego.herokuapp.com"
+			}
+		],
+		"category":"WEB"
+	},
+	{
+		"name":"Othello Juego Online",
+		"description":"Videojuego online del juego de mesa Othello. Diseñado para jugadores con parálisis cerebral. I Concurso GameParty de ASPACE (2017). Python, Flask, MongoDB, Numpy and AngularJS.",
+		"image_urls":[
+			"othelloonline/001.png",
+			"othelloonline/002.png",
+			"othelloonline/003.png"
+		],
+		"start_date":"2017-01-10",
+		"end_date":"2017-03-08",
+		"urls":[
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"https://othello-tais.herokuapp.com"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Master, I'm Helping!",
+		"description":"Videojuego creado en 48h para la Familiar Game Jam 8. El tema es 'Pequeños detalles que molestan'. Controla a las hordas de minions para retrasar al héroe todo lo posible y que sea derrotado por el amo. Unity.",
+		"image_urls":[
+			"master-im-helping/001.png",
+			"master-im-helping/002.png"
+		],
+		"start_date":"2017-03-24",
+		"end_date":"2017-03-26",
+		"urls":[
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"http://gamejolt.com/games/master-helping/245447"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Grand Matryoshka",
+		"description":"Videojuego creado en 48h para la Familiar Game Jam 5. El tema es 'Deconstrucción'. Gira la rueda para evitar que los peligros desmonten a nuestra matryoshka. Game Maker",
+		"image_urls":[
+			"grand-matryoshka/001.png"
+		],
+		"start_date":"2016-10-23",
+		"end_date":"2016-10-25",
+		"urls":[
+			{
+				"name":"link",
+				"icon":"link",
+				"link":"http://gamejolt.com/games/grand-matryoshka/104065"
+			}
+		],
+		"category":"GAMES"
+	},
+	{
+		"name":"Spell checker Python",
+		"description":"Corrector ortográfico simple en Python. Trabaja con corpus especializados del idioma objetivo.",
+		"image_urls":[
+			"spell-checker/001.png"
+		],
+		"start_date":"2016-12-12",
+		"end_date":"2016-12-19",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/spell-checker-python"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"Language detector Python",
+		"description":"Simple detector de idiomas con Python y NLTK. Trabaja con corpus especializados de idiomas.",
+		"image_urls":[
+			"language-detector/001.png"
+		],
+		"start_date":"2017-01-09",
+		"end_date":"2017-01-19",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/language-detector-python"
+			}
+		],
+		"category":"AI"
+	},
+	{
+		"name":"Twitter Naive Communities",
+		"description":"Scrapper, procesamiento de texto, reconocimiento facial y clasificador binomial con el objetivo de extraer información útil de comunidades en Twitter.",
+		"image_urls":[
+			"tfm-twitter/01.png",
+			"tfm-twitter/02.jpg",
+			"tfm-twitter/03.png",
+			"tfm-twitter/04.png",
+			"tfm-twitter/05.png"
+		],
+		"start_date":"2017-03-05",
+		"end_date":"2017-04-05",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/twitter-naive-communities"
+			}
+		],
+		"category":"AI"
+	}
+]
