@@ -1,17 +1,7 @@
 sudo: required
-services:
-  - docker
 
 script:
-  - docker build -t dandelea/portfolio
-  - sh ./deploy.sh
-
-deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: "danieldelosreyesleal.com"
-  on:
-    branch: master
-  skip_cleanup: true
-  region: eu-west-3
+  - npm install
+  - npm run build
+after_success:
+  - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY AWS_SECRET_ACCESS_KEY=$AWS_SECRET_KEY aws s3 sync ./dist s3://danieldelosreyesleal.com
