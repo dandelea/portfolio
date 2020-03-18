@@ -1,16 +1,11 @@
 install: npm install
 script: npm run build
-
-deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: danieldelosreyesleal.com
-  region: eu-west-3
-  local_dir: dist
-  skip_cleanup: true
-  acl: public_read
-  cache_control: max-age=0
+after_success:
+  - aws configure set aws_access_key_id $AWS_ACCESS_KEY
+  - aws configure set aws_secret_access_key $AWS_SECRET_KEY
+  - aws configure set default.region eu-west-3
+  - aws s3 rm s3://danieldelosreyesleal.com --recursive
+  - aws s3 cp dist/ s3://danieldelosreyesleal.com --recursive
   
   
   
