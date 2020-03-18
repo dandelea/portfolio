@@ -7,9 +7,7 @@
 		],
 		"start_date":"2012-10-22",
 		"end_date":"2013-1-13",
-		"urls":[
-
-		],
+		"urls":[],
 		"category":"WEB"
 	},
 	{
@@ -58,13 +56,7 @@
 		],
 		"start_date":"2015-03-05",
 		"end_date":"2015-05-20",
-		"urls":[
-			{
-				"name":"download",
-				"icon":"download",
-				"link":"/archives/projects/Asteroides.jar"
-			}
-		],
+		"urls":[],
 		"category":"GAMES"
 	},
 	{
@@ -109,14 +101,14 @@
 		"end_date":"2015-09-14",
 		"urls":[
 			{
-				"name":"desktop",
+				"name":"github",
 				"icon": "desktop",
-				"link":"/archives/projects/SpaceTennis3D/SpaceTennis3D.jar"
+				"link":"https://github.com/dandelea/SpaceTenis3D"
 			},
 			{
 				"name": "android",
 				"icon":["fab", "android"],
-				"link":"/archives/projects/SpaceTennis3D/SpaceTennisController.apk"
+				"link":"https://github.com/dandelea/SpaceTennisController"
 			},
 			{
 				"name":"book",
@@ -180,9 +172,9 @@
 		"end_date":"2016-05-06",
 		"urls":[
 			{
-				"name":"download",
-				"icon":"download",
-				"link":"/archives/projects/as-route/as-route-master.zip"
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/alesanmed/as-route"
 			},
 			{
 				"name":"book",
@@ -222,9 +214,9 @@
 		"end_date":"2016-02-26",
 		"urls":[
 			{
-				"name":"download",
-				"icon":"download",
-				"link":"/archives/projects/markov-aia-master.zip"
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/alesanmed/markov-aia"
 			}
 		],
 		"category":"AI"
@@ -319,6 +311,11 @@
 				"name":"link",
 				"icon":"link",
 				"link":"https://acmesupermarket.herokuapp.com/"
+			},
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/alesanmed/mii-1516-g2"
 			}
 		],
 		"category":"WEB"
@@ -337,7 +334,12 @@
 			{
 				"name":"link",
 				"icon":"link",
-				"link":"https://nuriaygrego.herokuapp.com"
+				"link":"http://nuriaygrego-env.eba-9qnbivfz.eu-west-3.elasticbeanstalk.com/"
+			},
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/nuriaygrego"
 			}
 		],
 		"category":"WEB"
@@ -354,9 +356,9 @@
 		"end_date":"2017-03-08",
 		"urls":[
 			{
-				"name":"link",
-				"icon":"link",
-				"link":"https://othello-tais.herokuapp.com"
+				"name": "github",
+				"icon": ["fab", "github"],
+				"link": "https://github.com/dandelea/othello"
 			}
 		],
 		"category":"GAMES"
