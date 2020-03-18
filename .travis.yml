@@ -7,4 +7,12 @@ after_success:
   - aws configure set aws_access_key_id $AWS_ACCESS_KEY
   - aws configure set aws_secret_access_key $AWS_SECRET_KEY
   - aws configure set default.region eu-west-3
-  - aws s3 sync ./dist s3://danieldelosreyesleal.com/
+
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: "danieldelosreyesleal.com"
+  acl: public_read
+  skip_cleanup: true
+  local_dir: dist
