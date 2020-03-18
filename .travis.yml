@@ -3,7 +3,8 @@ services:
   - docker
 
 script:
-  - docker build -t dandelea/portfolio .
+  - docker build -t dandelea/portfolio
+  - sh ./deploy.sh
 
 deploy:
   provider: s3
