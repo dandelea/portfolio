@@ -7,7 +7,7 @@
         <li><router-link to="/projects">Proyectos</router-link></li>
         <li><router-link to="/about">Sobre mí</router-link></li>
         <li><a href="mailto:danirele10@hotmail.com">Contacto</a></li>
-        <li><a href="/cv" class="button special">CV</a></li>
+        <li><a href="/cv.pdf" class="button special">CV</a></li>
       </ul>
     </nav>
   </header>

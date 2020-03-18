@@ -6,7 +6,7 @@
         <h2>Daniel de los Reyes Leal</h2>
         <p>Desarrollador</p>
         <ul class="actions">
-          <li><a href="/cv" class="button big special">CV</a></li>
+          <li><a href="/cv.pdf" class="button big special">CV</a></li>
           <li><router-link to="/projects" class="button big alt">Proyectos</router-link></li>
         </ul>
       </div>
