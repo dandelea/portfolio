@@ -17,9 +17,9 @@
 						<div class="4u">
 							<section class="my-4">
 								<h3 class="mb-8">Date una vuelta</h3>
-								<p>Si quieres más información sobre mi, consulta mi <a href="/cv.pdf" class="indigo">CV</a> o contáctame en <a href="#social" class="indigo" v-smooth-scroll="{ duration: 500, offset: -50 }"> redes sociales</a>.</p>
+								<p>Si quieres más información sobre mi, consulta mi <a href="/cv" class="indigo">CV</a> o contáctame en <a href="#social" class="indigo" v-smooth-scroll="{ duration: 500, offset: -50 }"> redes sociales</a>.</p>
 								<ul class="actions text-center my-2">
-									<li><a href="/cv.pdf" class="button special">Curriculum</a></li>
+									<li><a href="/cv" class="button special">Curriculum</a></li>
 								</ul>
 							</section>
 							<hr />
