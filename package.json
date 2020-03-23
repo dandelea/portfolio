@@ -1,7 +1,14 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "description": "Portfolio personal de Daniel de los Reyes",
+  "keywords": [
+    "dandelea",
+    "portfolio",
+    "Daniel de los Reyes"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "http://danieldelosreyesleal.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -58,5 +65,15 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/dandelea/portfolio",
+    "type": "git"
+  },
+  "author": {
+    "email": "danirele10@hotmail.com",
+    "name": "Daniel de los Reyes Leal",
+    "url": "http://danieldelosreyesleal.com"
+  },
+  "license": "AGPL-3.0-only"
 }
