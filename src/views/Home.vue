@@ -56,7 +56,7 @@
           <div class="6u sm:my-6 lg:my-0">
             <section class="special">
               <img class="image fit" src="images/containers.jpg" alt="Docker Containers" />
-              <h3>Mejora de proyectos pasados</h3>
+              <h3>Curso de Kubernetes</h3>
               <p>
                 Como parte de mi estudio de Docker y Kubernetes, estoy mejorando
                 proyectos web anteriores para poder ser fácilmente mantenidos en el futuro.
