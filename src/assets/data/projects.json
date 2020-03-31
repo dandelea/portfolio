@@ -452,5 +452,26 @@
 			}
 		],
 		"category":"AI"
+	},
+	{
+		"name":"Yu-Gi-Oh! Timemachine",
+		"description":"Formulario hecho en Vue para explorar el catálogo de cartas disponibles de un juego de mesa segun el momento de su historia.",
+		"image_urls":[
+			"ygo-timemachine/01.jpg"
+		],
+		"start_date":"2020-03-12",
+		"urls":[
+			{
+				"name":"github",
+				"icon":["fab", "github"],
+				"link":"https://github.com/dandelea/ygo-timemachine"
+			},
+			{
+				"name": "link",
+				"icon": "link",
+				"link": "http://ygo-timemachine.danieldelosreyesleal.com"
+			}
+		],
+		"category":"Web"
 	}
 ]
