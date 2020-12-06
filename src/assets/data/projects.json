@@ -332,11 +332,6 @@
 		"end_date":"2016-08-06",
 		"urls":[
 			{
-				"name":"link",
-				"icon":"link",
-				"link":"http://nuriaygrego-env.eba-9qnbivfz.eu-west-3.elasticbeanstalk.com/"
-			},
-			{
 				"name":"github",
 				"icon":["fab", "github"],
 				"link":"https://github.com/dandelea/nuriaygrego"
