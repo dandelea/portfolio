@@ -8,7 +8,7 @@
   ],
   "version": "1.0.0",
   "private": false,
-  "homepage": "http://danieldelosreyesleal.com",
+  "homepage": "https://danieldelosreyesleal.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -73,7 +73,7 @@
   "author": {
     "email": "danirele10@hotmail.com",
     "name": "Daniel de los Reyes Leal",
-    "url": "http://danieldelosreyesleal.com"
+    "url": "https://danieldelosreyesleal.com"
   },
   "license": "AGPL-3.0-only"
 }

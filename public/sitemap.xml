@@ -6,23 +6,23 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://danieldelosreyesleal.com/</loc>
-        <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+        <loc>https://danieldelosreyesleal.com/</loc>
+        <lastmod>2021-04-03T16:00:00+01:00</lastmod>
     </url>
 
     <url>
-        <loc>http://danieldelosreyesleal.com/projects</loc>
-        <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+        <loc>https://danieldelosreyesleal.com/projects</loc>
+        <lastmod>2021-04-03T16:00:00+01:00</lastmod>
     </url>
 
     <url>
-        <loc>http://danieldelosreyesleal.com/about</loc>
-        <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+        <loc>https://danieldelosreyesleal.com/about</loc>
+        <lastmod>2021-04-03T16:00:00+01:00</lastmod>
     </url>
 
     <url>
-        <loc>http://danieldelosreyesleal.com/cv.pdf</loc>
-        <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+        <loc>https://danieldelosreyesleal.com/cv.pdf</loc>
+        <lastmod>2021-04-03T16:00:00+01:00</lastmod>
     </url>
 
 </urlset>

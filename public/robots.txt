@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://danieldelosreyesleal.com/sitemap.xml
+Sitemap: https://danieldelosreyesleal.com/sitemap.xml
