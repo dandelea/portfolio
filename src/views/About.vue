@@ -7,8 +7,8 @@
 								<h1 class="mb-8">Sobre mí</h1>
 								<img class="image fit" src="images/about.jpg" alt="Sobre mí" />
 								<p class="my-2">Bienvenido. Soy <strong>Daniel de los Reyes</strong>.</p>
-                <p><strong>Dandelea</strong> es el nombre de usuario que se me asignó en la Universidad de Sevilla, y creo que me pega. Soy un desarrollador de software con experiencias en muchos lenguajes.
-                Mis intereses están relacionados con las actividades de DevOps y programación Back-End, aunque tambien he programado para Front-End y me encanta dedicar tiempo libre a la programación de videojuegos.</p>
+                <p>Soy un desarrollador de software con experiencias en muchos lenguajes.
+                Mis intereses están relacionados con las actividades de DevOps y programación Back-End, aunque tambien he programado para Front-End.</p>
                 <p class="my-2">Soy un apasionado de la tecnología, los videojuegos y el cine.
                 Esta web, desarrollada de manera artesanal en mi tiempo libre intenta ser un portfolio. Para acercarme a tí y tú a mí.
                 Siéntete libre de consultar las secciones, proyectos y mis <a href="#social" class="indigo" v-smooth-scroll="{ duration: 2000, offset: -50 }">redes sociales</a>.</p>
