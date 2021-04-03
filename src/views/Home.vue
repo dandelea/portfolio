@@ -1,22 +1,27 @@
 <template>
   <div>
     <!-- Banner -->
-    <section id="banner">
+    <section id="banner" class="py-12">
       <div class="inner">
-        <h2>Daniel de los Reyes Leal</h2>
-        <p>Desarrollador</p>
+        <h2 class="text-base md:text-3xl xl:text-5xl">Daniel de los Reyes Leal</h2>
+        <p class="mb-2 md:mb-4 lg:mb-6">Full Stack Developer</p>
+        <div class="flex flex-wrap justify-center mb-4 lg:mb-6">
+          <div class="w-6/12 sm:w-4/12 lg:w-3/12 px-4">
+            <img src="/images/me.jpg" alt="Daniel de los Reyes" class="shadow rounded-full max-w-full h-auto align-middle border-none" />
+          </div>
+        </div>
         <ul class="actions">
           <li><a href="/cv.pdf" class="button big special">CV</a></li>
-          <li><router-link to="/projects" class="button big alt">Proyectos</router-link></li>
+          <!--<li><router-link to="/projects" class="button big alt">Proyectos</router-link></li>-->
         </ul>
       </div>
     </section>
 
 		<!-- One -->
-    <section id="one" class="wrapper style1">
+    <!--<section id="one" class="wrapper style1">
       <header class="major">
         <h2>Cosas que puedes encontrar aquí</h2>
-        <!--<p>Tempus adipiscing commodo ut aliquam blandit</p>-->
+        <p>Tempus adipiscing commodo ut aliquam blandit</p>
       </header>
       <div class="container">
         <div class="row">
@@ -44,9 +49,10 @@
         </div>
       </div>
     </section>
-			
+		-->
+
 		<!-- Two -->
-    <section id="two" class="wrapper style2">
+    <section id="two" class="wrapper style1">
       <header class="major">
         <h2>Proyectos en curso...</h2>
         <!--<p>Amet nisi nunc lorem accumsan</p>-->
@@ -85,15 +91,15 @@
 </template>
 
 <script>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faLaptop, faGamepad, faFutbol } from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+//import { library } from '@fortawesome/fontawesome-svg-core'
+//import { faLaptop, faGamepad, faFutbol } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLaptop, faGamepad, faFutbol)
+//library.add(faLaptop, faGamepad, faFutbol)
 export default {
   name: 'Home',
   components: {
-    FontAwesomeIcon,
+    //FontAwesomeIcon,
   },
   metaInfo: {
     title: 'Daniel de los Reyes - Inicio',
