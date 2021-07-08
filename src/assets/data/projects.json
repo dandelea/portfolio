@@ -460,11 +460,6 @@
 				"name":"github",
 				"icon":["fab", "github"],
 				"link":"https://github.com/dandelea/ygo-timemachine"
-			},
-			{
-				"name": "link",
-				"icon": "link",
-				"link": "http://ygo-timemachine.danieldelosreyesleal.com"
 			}
 		],
 		"category":"Web"
