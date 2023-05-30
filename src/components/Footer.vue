@@ -20,8 +20,8 @@
                     </li>
                     <li class="my-2">
                         <a href="mailto:danirele10@hotmail.com">
-                            <div class="text-center w-10 h-10 rounded-full bg-gray-300 hover:bg-gmail hover:text-white cursor-pointer transition duration-500 ease-in-out transform hover:scale-125">
-                                <font-awesome-icon icon="paper-plane" class="w-10 h-10"/>
+                            <div class="text-center w-10 h-10 rounded-full bg-gray-300 hover:bg-gmail hover:text-white cursor-pointer transition duration-500 ease-in-out transform flex items-center justify-center hover:scale-125">
+                                <font-awesome-icon icon="paper-plane" class="w-6 h-6"/>
                             </div>
                         </a>
                     </li>

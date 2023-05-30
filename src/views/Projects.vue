@@ -40,7 +40,7 @@
               <div class="text-sm text-grey-dark flex items-center float-right py-1 px-3">
                 <div v-if="project.end_date" class="flex">
                   <font-awesome-icon icon="hourglass-end" class="mx-2 my-1" />
-                  {{project.end_date | date}}
+                  {{translateDate(project.end_date)}}
                 </div>
                 <div v-if="!project.end_date" class="flex">
                   <font-awesome-icon icon="hourglass-half" class="mx-2 my-1" />
@@ -49,7 +49,7 @@
               </div>
               <div class="text-sm text-grey-dark flex items-center py-1 px-3">
                 <font-awesome-icon icon="hourglass-start" class="mx-2 my-1" />
-                {{project.start_date | date}}
+                {{translateDate(project.start_date)}}
               </div>
               <div class="text-black font-bold text-xl mb-2">{{project.name}}</div>
               <p class="text-grey-darker text-base text-justify">{{project.description}}</p>
@@ -57,8 +57,8 @@
             <div class="flex flex-wrap mx-2 text-center">
               <a :href="url.link" class="flex items-center m-1 mx-auto p-2"
                 v-for="(url, url_i) in project.urls" :key="url_i">
-                <div class="w-10 h-10 rounded-full bg-gray-300 hover:bg-gray-400 cursor-pointer transition duration-500 ease-in-out transform hover:scale-125">
-                  <font-awesome-icon :icon="url.icon" class="w-10 h-10"/>
+                <div class="w-10 h-10 rounded-full bg-gray-300 hover:bg-gray-400 cursor-pointer transition duration-500 ease-in-out transform flex items-center justify-center hover:scale-125">
+                  <font-awesome-icon :icon="url.icon" class="w-6 h-6"/>
                 </div>
               </a>
               <!--<a :href="url.link" class="w-2/5 flex items-center m-1 mx-auto p-2 rounded-lg bg-gray-200 hover:bg-gray-300 cursor-pointer"
@@ -223,6 +223,15 @@ export default {
     },
     invertOrder: function() {
       this.inverseOrder = !this.inverseOrder
+    },
+    translateDate: function(value) {
+      if (!value) return ''
+      value = value.toString()
+      let date = moment(value)
+      if (date.isValid()) {
+          return date.format('DD/MM/YYYY')
+      }
+      return value
     },
   },
 }
