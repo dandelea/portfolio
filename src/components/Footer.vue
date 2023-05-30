@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <ul class="copyright">
-                <li>© Daniel de los Reyes Leal 2017 - 2021.</li>
+                <li>© Daniel de los Reyes Leal 2017 - 2023.</li>
                 <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
             </ul>
         </div>
